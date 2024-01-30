@@ -1,3 +1,11 @@
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\mauiDemo.runtimeconfig.json
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\mauiDemo.dll
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\mauiDemo.pdb
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo.apk
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo.aab
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo-Signed.aab
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo-Signed.apk
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo-Signed.apk.idsig
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\build.props
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\adb.props
@@ -96,14 +104,6 @@ D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\mauiDemo.GeneratedMSBu
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\mauiDemo.AssemblyInfoInputs.cache
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\mauiDemo.AssemblyInfo.cs
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\mauiDemo.csproj.CoreCompileInputs.cache
-D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\mauiDemo.runtimeconfig.json
-D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\mauiDemo.dll
-D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\mauiDemo.pdb
-D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo.apk
-D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo.aab
-D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo-Signed.aab
-D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo-Signed.apk
-D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-android\com.companyname.mauidemo-Signed.apk.idsig
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\XamlC.stamp
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\mauiDemo.dll
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\mauiDemo.pdb
@@ -116,6 +116,7 @@ D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\android\bin\com.compan
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\res\values\colors.xml
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\uploadflags.txt
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\resolvedassemblies.hash
+D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\android\assets\ACBrLib.Core.dll
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\android\assets\GoogleGson.dll
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\android\assets\Java.Interop.dll
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-android\android\assets\Java.Interop.pdb

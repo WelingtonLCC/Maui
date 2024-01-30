@@ -48,4 +48,29 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Resources\Lib\arm64-v8a\libacbrnfe32.so" />
+	  <None Remove="Resources\Lib\arm64-v8a\libacbrnfe64.so" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <AndroidNativeLibrary Include="Resources\Lib\arm64-v8a\libacbrnfe32.so">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </AndroidNativeLibrary>
+	  <AndroidNativeLibrary Include="Resources\Lib\arm64-v8a\libacbrnfe64.so">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </AndroidNativeLibrary>
+	  <AndroidNativeLibrary Include="Resources\Lib\armeabi-v7a\libacbrnfe64.so">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	    <CustomToolNamespace></CustomToolNamespace>
+	  </AndroidNativeLibrary>
+	  <AndroidNativeLibrary Include="Resources\Lib\armeabi-v7a\libacbrnfe32.so">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </AndroidNativeLibrary>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="ACBrLib.Core" Version="1.1.3" />
+	</ItemGroup>
+
 </Project>
