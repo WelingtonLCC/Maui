@@ -1,7 +1,8 @@
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\Resources\Lib\x86_64\libacbrnfe64.so
 D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\mauiDemo.runtimeconfig.json
 D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\mauiDemo.dll
 D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\mauiDemo.pdb
-D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\ACBrLib.Core.dll
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\MetroLog.Net6.dll
 D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
 D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -264,3 +265,6 @@ D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-ios\iossimulator-x64\refint\ma
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-ios\iossimulator-x64\mauiDemo.pdb
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-ios\iossimulator-x64\mauiDemo.genruntimeconfig.cache
 D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-ios\iossimulator-x64\ref\mauiDemo.dll
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\Resources\Lib\x86_64\ACBrNFe32.dll
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\Resources\Lib\x86_64\ACBrNFe64.dll
+D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-ios\iossimulator-x64\Resources\Lib\x86_64\libacbrnfe32.so

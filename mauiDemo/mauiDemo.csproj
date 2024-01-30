@@ -49,28 +49,26 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Lib\arm64-v8a\libacbrnfe32.so" />
-	  <None Remove="Resources\Lib\arm64-v8a\libacbrnfe64.so" />
+	  <PackageReference Include="MetroLog.Net6" Version="2.1.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidNativeLibrary Include="Resources\Lib\arm64-v8a\libacbrnfe32.so">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </AndroidNativeLibrary>
-	  <AndroidNativeLibrary Include="Resources\Lib\arm64-v8a\libacbrnfe64.so">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </AndroidNativeLibrary>
-	  <AndroidNativeLibrary Include="Resources\Lib\armeabi-v7a\libacbrnfe64.so">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	    <CustomToolNamespace></CustomToolNamespace>
-	  </AndroidNativeLibrary>
-	  <AndroidNativeLibrary Include="Resources\Lib\armeabi-v7a\libacbrnfe32.so">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </AndroidNativeLibrary>
+		<None Update="Resources\Lib\x86_64\libacbrnfe64.so" LogicalName="libacbrnfe64.so">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\Lib\x86_64\libacbrnfe32.so" LogicalName="libacbrnfe32.so">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\Lib\x86_64\ACBrNFe64.dll" LogicalName="ACBrNFe64.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\Lib\x86_64\ACBrNFe32.dll" LogicalName="ACBrNFe32.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="ACBrLib.Core" Version="1.1.3" />
+	  <Folder Include="Resources\Lib\arm64-v8a\" />
 	</ItemGroup>
 
 </Project>

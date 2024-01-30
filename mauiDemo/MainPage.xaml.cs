@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using Microsoft.Extensions.Logging;
+using System.Runtime.InteropServices;
 
 namespace mauiDemo;
 
@@ -6,31 +7,39 @@ public partial class MainPage : ContentPage
 {
     const int RTLD_NOW = 2;
 
-    [DllImport("libdl.so")]
-    protected static extern IntPtr dlopen(string filename, int flags);
+    ILogger<MainPage> _logger;
 
-    [DllImport("libdl.so")]
-    protected static extern IntPtr dlsym(IntPtr handle, string symbol);
+    [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    delegate IntPtr DlopenDelegate(string fileName, int flags);
 
-    [DllImport("libdl.so")]
-    protected static extern IntPtr Dlclose(IntPtr handle, string symbol);
+    [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    delegate IntPtr DlsymDelegate(IntPtr handle, string symbol);
+
+    [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    delegate int DlcloseDelegate(IntPtr handle);
+
+    private const string DllName = "libacbrnfe64.so";
+
+
+    [DllImport(DllName, EntryPoint = "NFE_Inicializar")]
+    protected static extern IntPtr NFEInicializar(string filename, int flags);
+
 
 
     [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-    public delegate int NFE_Inicializar(string eArqConfig, string eChaveCrypt);
+    public delegate int NFE_Inicializar(string eArqConfig, string eChaveCr);
 
-    public MainPage()
+    public MainPage(ILogger<MainPage> logger)
     {
         InitializeComponent();
+
+        _logger = logger;
 
         string libraryName = "libacbrnfe64.so"; // Substitua pelo nome correto da sua biblioteca
         string functionName = "NFE_Inicializar";
 
+
         var lib = NativeLibrary.Load("libdl.so");
-
-        //var acbr = NativeLibrary.Load(libraryName);
-
-        //var acbr = NativeLibrary.Load(libraryName);
 
         var dlopenFunction = NativeLibrary.GetExport(lib, "dlopen");
         var dlsymFunction = NativeLibrary.GetExport(lib, "dlsym");
@@ -40,13 +49,17 @@ public partial class MainPage : ContentPage
         var dlsymDelegate = Marshal.GetDelegateForFunctionPointer<DlsymDelegate>(dlsymFunction);
         var dlcloseDelegate = Marshal.GetDelegateForFunctionPointer<DlcloseDelegate>(dlcloseFunction);
 
+
+
+        var resultdll = NFEInicializar("", 2);
         // Carregar a biblioteca
-        IntPtr handle = dlopenDelegate(libraryName, RTLD_NOW);
+        IntPtr handle = dlopenDelegate(libraryName, 1);
         if (handle == IntPtr.Zero)
         {
             Console.WriteLine($"Não foi possível carregar a biblioteca: {libraryName}");
             return;
         }
+       
 
         // Obter um ponteiro para a função
         IntPtr functionPtr = dlsymDelegate(handle, functionName);
@@ -71,8 +84,9 @@ public partial class MainPage : ContentPage
     private async void Button_Clicked(object sender, EventArgs e)
     {
 
+        _logger.LogInformation($"Clicked");
 
-        DisplayAlert("Alert","Botão iniciado","OK");
+        DisplayAlert("Alert", "Botão iniciado", "OK");
     }
 }
 

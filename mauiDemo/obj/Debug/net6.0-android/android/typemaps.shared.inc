@@ -42418,118 +42418,118 @@
 
 	.type	.L.java_type_name.8483, @object
 .L.java_type_name.8483:
-	.asciz	"crc641cee345fdb8fbb1c/MainActivity"
-	.size	.L.java_type_name.8483, 35
+	.asciz	"crc64338477404e88479c/ColorChangeRevealDrawable"
+	.size	.L.java_type_name.8483, 48
 
 	.type	.L.java_type_name.8484, @object
 .L.java_type_name.8484:
-	.asciz	"crc641cee345fdb8fbb1c/MainApplication"
-	.size	.L.java_type_name.8484, 38
+	.asciz	"crc64338477404e88479c/ControlsAccessibilityDelegate"
+	.size	.L.java_type_name.8484, 52
 
 	.type	.L.java_type_name.8485, @object
 .L.java_type_name.8485:
-	.asciz	"crc64338477404e88479c/ColorChangeRevealDrawable"
+	.asciz	"crc64338477404e88479c/DragAndDropGestureHandler"
 	.size	.L.java_type_name.8485, 48
 
 	.type	.L.java_type_name.8486, @object
 .L.java_type_name.8486:
-	.asciz	"crc64338477404e88479c/ControlsAccessibilityDelegate"
-	.size	.L.java_type_name.8486, 52
+	.asciz	"crc64338477404e88479c/DragAndDropGestureHandler_CustomLocalStateData"
+	.size	.L.java_type_name.8486, 69
 
 	.type	.L.java_type_name.8487, @object
 .L.java_type_name.8487:
-	.asciz	"crc64338477404e88479c/DragAndDropGestureHandler"
-	.size	.L.java_type_name.8487, 48
+	.asciz	"crc64338477404e88479c/FormattedStringExtensions_FontSpan"
+	.size	.L.java_type_name.8487, 57
 
 	.type	.L.java_type_name.8488, @object
 .L.java_type_name.8488:
-	.asciz	"crc64338477404e88479c/DragAndDropGestureHandler_CustomLocalStateData"
-	.size	.L.java_type_name.8488, 69
+	.asciz	"crc64338477404e88479c/FormattedStringExtensions_LetterSpacingSpan"
+	.size	.L.java_type_name.8488, 66
 
 	.type	.L.java_type_name.8489, @object
 .L.java_type_name.8489:
-	.asciz	"crc64338477404e88479c/FormattedStringExtensions_FontSpan"
-	.size	.L.java_type_name.8489, 57
+	.asciz	"crc64338477404e88479c/FormattedStringExtensions_LineHeightSpan"
+	.size	.L.java_type_name.8489, 63
 
 	.type	.L.java_type_name.8490, @object
 .L.java_type_name.8490:
-	.asciz	"crc64338477404e88479c/FormattedStringExtensions_LetterSpacingSpan"
-	.size	.L.java_type_name.8490, 66
+	.asciz	"crc64338477404e88479c/FragmentContainer"
+	.size	.L.java_type_name.8490, 40
 
 	.type	.L.java_type_name.8491, @object
 .L.java_type_name.8491:
-	.asciz	"crc64338477404e88479c/FormattedStringExtensions_LineHeightSpan"
-	.size	.L.java_type_name.8491, 63
+	.asciz	"crc64338477404e88479c/GenericAnimatorListener"
+	.size	.L.java_type_name.8491, 46
 
 	.type	.L.java_type_name.8492, @object
 .L.java_type_name.8492:
-	.asciz	"crc64338477404e88479c/FragmentContainer"
-	.size	.L.java_type_name.8492, 40
+	.asciz	"crc64338477404e88479c/GenericGlobalLayoutListener"
+	.size	.L.java_type_name.8492, 50
 
 	.type	.L.java_type_name.8493, @object
 .L.java_type_name.8493:
-	.asciz	"crc64338477404e88479c/GenericAnimatorListener"
-	.size	.L.java_type_name.8493, 46
+	.asciz	"crc64338477404e88479c/GenericMenuClickListener"
+	.size	.L.java_type_name.8493, 47
 
 	.type	.L.java_type_name.8494, @object
 .L.java_type_name.8494:
-	.asciz	"crc64338477404e88479c/GenericGlobalLayoutListener"
-	.size	.L.java_type_name.8494, 50
+	.asciz	"crc64338477404e88479c/GradientStrokeDrawable"
+	.size	.L.java_type_name.8494, 45
 
 	.type	.L.java_type_name.8495, @object
 .L.java_type_name.8495:
-	.asciz	"crc64338477404e88479c/GenericMenuClickListener"
-	.size	.L.java_type_name.8495, 47
+	.asciz	"crc64338477404e88479c/GradientStrokeDrawable_GradientShaderFactory"
+	.size	.L.java_type_name.8495, 67
 
 	.type	.L.java_type_name.8496, @object
 .L.java_type_name.8496:
-	.asciz	"crc64338477404e88479c/GradientStrokeDrawable"
-	.size	.L.java_type_name.8496, 45
+	.asciz	"crc64338477404e88479c/InnerGestureListener"
+	.size	.L.java_type_name.8496, 43
 
 	.type	.L.java_type_name.8497, @object
 .L.java_type_name.8497:
-	.asciz	"crc64338477404e88479c/GradientStrokeDrawable_GradientShaderFactory"
-	.size	.L.java_type_name.8497, 67
+	.asciz	"crc64338477404e88479c/InnerScaleListener"
+	.size	.L.java_type_name.8497, 41
 
 	.type	.L.java_type_name.8498, @object
 .L.java_type_name.8498:
-	.asciz	"crc64338477404e88479c/InnerGestureListener"
-	.size	.L.java_type_name.8498, 43
+	.asciz	"crc64338477404e88479c/MauiViewPager"
+	.size	.L.java_type_name.8498, 36
 
 	.type	.L.java_type_name.8499, @object
 .L.java_type_name.8499:
-	.asciz	"crc64338477404e88479c/InnerScaleListener"
-	.size	.L.java_type_name.8499, 41
+	.asciz	"crc64338477404e88479c/ModalNavigationManager_ModalContainer"
+	.size	.L.java_type_name.8499, 60
 
 	.type	.L.java_type_name.8500, @object
 .L.java_type_name.8500:
-	.asciz	"crc64338477404e88479c/MauiViewPager"
-	.size	.L.java_type_name.8500, 36
+	.asciz	"crc64338477404e88479c/ModalNavigationManager_ModalContainer_ModalFragment"
+	.size	.L.java_type_name.8500, 74
 
 	.type	.L.java_type_name.8501, @object
 .L.java_type_name.8501:
-	.asciz	"crc64338477404e88479c/ModalNavigationManager_ModalContainer"
-	.size	.L.java_type_name.8501, 60
+	.asciz	"crc64338477404e88479c/MultiPageFragmentStateAdapter_1"
+	.size	.L.java_type_name.8501, 54
 
 	.type	.L.java_type_name.8502, @object
 .L.java_type_name.8502:
-	.asciz	"crc64338477404e88479c/ModalNavigationManager_ModalContainer_ModalFragment"
-	.size	.L.java_type_name.8502, 74
+	.asciz	"crc64338477404e88479c/TapAndPanGestureDetector"
+	.size	.L.java_type_name.8502, 47
 
 	.type	.L.java_type_name.8503, @object
 .L.java_type_name.8503:
-	.asciz	"crc64338477404e88479c/MultiPageFragmentStateAdapter_1"
-	.size	.L.java_type_name.8503, 54
+	.asciz	"crc64338477404e88479c/ToolbarExtensions_ToolbarTitleIconImageView"
+	.size	.L.java_type_name.8503, 66
 
 	.type	.L.java_type_name.8504, @object
 .L.java_type_name.8504:
-	.asciz	"crc64338477404e88479c/TapAndPanGestureDetector"
-	.size	.L.java_type_name.8504, 47
+	.asciz	"crc6433fbaa10ab145ee2/MainActivity"
+	.size	.L.java_type_name.8504, 35
 
 	.type	.L.java_type_name.8505, @object
 .L.java_type_name.8505:
-	.asciz	"crc64338477404e88479c/ToolbarExtensions_ToolbarTitleIconImageView"
-	.size	.L.java_type_name.8505, 66
+	.asciz	"crc6433fbaa10ab145ee2/MainApplication"
+	.size	.L.java_type_name.8505, 38
 
 	.type	.L.java_type_name.8506, @object
 .L.java_type_name.8506:
@@ -125117,12 +125117,12 @@
 
 	.type	.L.managed_type_name.12510, @object
 .L.managed_type_name.12510:
-	.asciz	"mauiDemo.MainActivity, mauiDemo"
-	.size	.L.managed_type_name.12510, 32
+	.asciz	"mauiDemo.Platforms.Android.MainActivity, mauiDemo"
+	.size	.L.managed_type_name.12510, 50
 
 	.type	.L.managed_type_name.12511, @object
 .L.managed_type_name.12511:
-	.asciz	"mauiDemo.MainApplication, mauiDemo"
-	.size	.L.managed_type_name.12511, 35
+	.asciz	"mauiDemo.Platforms.Android.MainApplication, mauiDemo"
+	.size	.L.managed_type_name.12511, 53
 
 	/*  Managed type names: END */

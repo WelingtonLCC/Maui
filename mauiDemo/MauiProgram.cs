@@ -1,4 +1,6 @@
-﻿namespace mauiDemo;
+﻿using MetroLog.MicrosoftExtensions;
+
+namespace mauiDemo;
 
 public static class MauiProgram
 {
@@ -12,6 +14,10 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
+
+
+		builder.Logging.AddConsoleLogger(_ => { });
+		builder.Services.AddTransient<MainPage>();
 
 		return builder.Build();
 	}

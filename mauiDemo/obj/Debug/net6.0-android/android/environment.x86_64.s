@@ -3526,241 +3526,193 @@ dso_cache:
 	.quad	.L.autostr.13	# name: libmono-component-debugger.so
 	.quad	0x0	# handle
 
-	.quad	0x131ccd17d5bdcc41	# hash, from name: acbrnfe64.so
-	.byte	0x0	# ignore
-	.zero	7
-	.quad	.L.autostr.14	# name: libacbrnfe64.so
-	.quad	0x0	# handle
-
-	.quad	0x1435eadd5b2091a4	# hash, from name: acbrnfe32.so
-	.byte	0x0	# ignore
-	.zero	7
-	.quad	.L.autostr.15	# name: libacbrnfe32.so
-	.quad	0x0	# handle
-
 	.quad	0x14ceaea6ae80c29d	# hash, from name: libSystem.Security.Cryptography.Native.Android
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.16	# name: libSystem.Security.Cryptography.Native.Android.so
+	.quad	.L.autostr.14	# name: libSystem.Security.Cryptography.Native.Android.so
 	.quad	0x0	# handle
 
 	.quad	0x2525308b79a4c498	# hash, from name: xamarin-debug-app-helper.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.17	# name: libxamarin-debug-app-helper.so
-	.quad	0x0	# handle
-
-	.quad	0x2b2f27a4118cd5df	# hash, from name: acbrnfe64
-	.byte	0x0	# ignore
-	.zero	7
-	.quad	.L.autostr.18	# name: libacbrnfe64.so
-	.quad	0x0	# handle
-
-	.quad	0x2e13bfba58138eab	# hash, from name: acbrnfe32
-	.byte	0x0	# ignore
-	.zero	7
-	.quad	.L.autostr.19	# name: libacbrnfe32.so
+	.quad	.L.autostr.15	# name: libxamarin-debug-app-helper.so
 	.quad	0x0	# handle
 
 	.quad	0x318a1887b586c370	# hash, from name: libmono-component-hot_reload
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.20	# name: libmono-component-hot_reload.so
-	.quad	0x0	# handle
-
-	.quad	0x4b8e2248c0098fa5	# hash, from name: libacbrnfe32.so
-	.byte	0x0	# ignore
-	.zero	7
-	.quad	.L.autostr.21	# name: libacbrnfe32.so
+	.quad	.L.autostr.16	# name: libmono-component-hot_reload.so
 	.quad	0x0	# handle
 
 	.quad	0x4e4f7fd9c4797a21	# hash, from name: libmono-component-hot_reload.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.22	# name: libmono-component-hot_reload.so
+	.quad	.L.autostr.17	# name: libmono-component-hot_reload.so
 	.quad	0x0	# handle
 
 	.quad	0x51e4357ecbccbaba	# hash, from name: System.Security.Cryptography.Native.Android.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.23	# name: libSystem.Security.Cryptography.Native.Android.so
+	.quad	.L.autostr.18	# name: libSystem.Security.Cryptography.Native.Android.so
 	.quad	0x0	# handle
 
 	.quad	0x528f0afdb0921c40	# hash, from name: libSystem.Native.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.24	# name: libSystem.Native.so
+	.quad	.L.autostr.19	# name: libSystem.Native.so
 	.quad	0x0	# handle
 
 	.quad	0x544895645d121a38	# hash, from name: libmono-component-debugger
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.25	# name: libmono-component-debugger.so
+	.quad	.L.autostr.20	# name: libmono-component-debugger.so
 	.quad	0x0	# handle
 
 	.quad	0x578abc5300e958b7	# hash, from name: libSystem.Native
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.26	# name: libSystem.Native.so
+	.quad	.L.autostr.21	# name: libSystem.Native.so
 	.quad	0x0	# handle
 
 	.quad	0x5c15a2333b0a0c84	# hash, from name: libxamarin-debug-app-helper.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.27	# name: libxamarin-debug-app-helper.so
+	.quad	.L.autostr.22	# name: libxamarin-debug-app-helper.so
 	.quad	0x0	# handle
 
 	.quad	0x5ff274549d146133	# hash, from name: System.IO.Compression.Native.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.28	# name: libSystem.IO.Compression.Native.so
+	.quad	.L.autostr.23	# name: libSystem.IO.Compression.Native.so
 	.quad	0x0	# handle
 
 	.quad	0x65d94d818a60a3a7	# hash, from name: monodroid.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.29	# name: libmonodroid.so
+	.quad	.L.autostr.24	# name: libmonodroid.so
 	.quad	0x0	# handle
 
 	.quad	0x6a0685fd2cfebf80	# hash, from name: libSystem.IO.Compression.Native.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.30	# name: libSystem.IO.Compression.Native.so
+	.quad	.L.autostr.25	# name: libSystem.IO.Compression.Native.so
 	.quad	0x0	# handle
 
 	.quad	0x6b6b0562539657f0	# hash, from name: libmonosgen-2.0
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.31	# name: libmonosgen-2.0.so
+	.quad	.L.autostr.26	# name: libmonosgen-2.0.so
 	.quad	0x0	# handle
 
 	.quad	0x6cf9239740e64f9d	# hash, from name: libxamarin-debug-app-helper
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.32	# name: libxamarin-debug-app-helper.so
+	.quad	.L.autostr.27	# name: libxamarin-debug-app-helper.so
 	.quad	0x0	# handle
 
 	.quad	0x74778f1b27881b01	# hash, from name: libmonodroid.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.33	# name: libmonodroid.so
+	.quad	.L.autostr.28	# name: libmonodroid.so
 	.quad	0x0	# handle
 
 	.quad	0x77b800a1f4c5abd8	# hash, from name: System.Native
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.34	# name: libSystem.Native.so
-	.quad	0x0	# handle
-
-	.quad	0x797155e4958b5bb7	# hash, from name: libacbrnfe64.so
-	.byte	0x0	# ignore
-	.zero	7
-	.quad	.L.autostr.35	# name: libacbrnfe64.so
+	.quad	.L.autostr.29	# name: libSystem.Native.so
 	.quad	0x0	# handle
 
 	.quad	0x7daaf3a073c44dd7	# hash, from name: monodroid
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.36	# name: libmonodroid.so
+	.quad	.L.autostr.30	# name: libmonodroid.so
 	.quad	0x0	# handle
 
 	.quad	0x905f33cea45eb056	# hash, from name: mono-component-debugger.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.37	# name: libmono-component-debugger.so
+	.quad	.L.autostr.31	# name: libmono-component-debugger.so
 	.quad	0x0	# handle
 
 	.quad	0x918196231499ae33	# hash, from name: xamarin-debug-app-helper
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.38	# name: libxamarin-debug-app-helper.so
-	.quad	0x0	# handle
-
-	.quad	0x98bf762e00888890	# hash, from name: libacbrnfe64
-	.byte	0x0	# ignore
-	.zero	7
-	.quad	.L.autostr.39	# name: libacbrnfe64.so
+	.quad	.L.autostr.32	# name: libxamarin-debug-app-helper.so
 	.quad	0x0	# handle
 
 	.quad	0x9af167ab9cbda4bd	# hash, from name: System.Security.Cryptography.Native.Android
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.40	# name: libSystem.Security.Cryptography.Native.Android.so
+	.quad	.L.autostr.33	# name: libSystem.Security.Cryptography.Native.Android.so
 	.quad	0x0	# handle
 
 	.quad	0x9fe56834a335f553	# hash, from name: libmonodroid
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.41	# name: libmonodroid.so
+	.quad	.L.autostr.34	# name: libmonodroid.so
 	.quad	0x0	# handle
 
 	.quad	0xc82f57facf333f6a	# hash, from name: monosgen-2.0.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.42	# name: libmonosgen-2.0.so
+	.quad	.L.autostr.35	# name: libmonosgen-2.0.so
 	.quad	0x0	# handle
 
 	.quad	0xcf53f28e7cc47248	# hash, from name: mono-component-hot_reload
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.43	# name: libmono-component-hot_reload.so
+	.quad	.L.autostr.36	# name: libmono-component-hot_reload.so
 	.quad	0x0	# handle
 
 	.quad	0xe1d7771458b10685	# hash, from name: System.Native.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.44	# name: libSystem.Native.so
+	.quad	.L.autostr.37	# name: libSystem.Native.so
 	.quad	0x0	# handle
 
 	.quad	0xe7ff637b8de7a85b	# hash, from name: libmonosgen-2.0.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.45	# name: libmonosgen-2.0.so
+	.quad	.L.autostr.38	# name: libmonosgen-2.0.so
 	.quad	0x0	# handle
 
 	.quad	0xe935f11a41b02b22	# hash, from name: monosgen-2.0
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.46	# name: libmonosgen-2.0.so
-	.quad	0x0	# handle
-
-	.quad	0xefaba335d30c2450	# hash, from name: libacbrnfe32
-	.byte	0x0	# ignore
-	.zero	7
-	.quad	.L.autostr.47	# name: libacbrnfe32.so
+	.quad	.L.autostr.39	# name: libmonosgen-2.0.so
 	.quad	0x0	# handle
 
 	.quad	0xf3eec4cd80c0a45d	# hash, from name: System.IO.Compression.Native
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.48	# name: libSystem.IO.Compression.Native.so
+	.quad	.L.autostr.40	# name: libSystem.IO.Compression.Native.so
 	.quad	0x0	# handle
 
 	.quad	0xf9d134ddbd8dbeb4	# hash, from name: mono-component-hot_reload.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.49	# name: libmono-component-hot_reload.so
+	.quad	.L.autostr.41	# name: libmono-component-hot_reload.so
 	.quad	0x0	# handle
 
 	.quad	0xfa5300a1deb9e9c7	# hash, from name: libmono-component-debugger.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.50	# name: libmono-component-debugger.so
+	.quad	.L.autostr.42	# name: libmono-component-debugger.so
 	.quad	0x0	# handle
 
 	.quad	0xfbd30111a3b6e09a	# hash, from name: libSystem.IO.Compression.Native
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.51	# name: libSystem.IO.Compression.Native.so
+	.quad	.L.autostr.43	# name: libSystem.IO.Compression.Native.so
 	.quad	0x0	# handle
 
 	.quad	0xfd5e3c67ff65dc86	# hash, from name: libSystem.Security.Cryptography.Native.Android.so
 	.byte	0x0	# ignore
 	.zero	7
-	.quad	.L.autostr.52	# name: libSystem.Security.Cryptography.Native.Android.so
+	.quad	.L.autostr.44	# name: libSystem.Security.Cryptography.Native.Android.so
 	.quad	0x0	# handle
 
-	.size	dso_cache, 1280
+	.size	dso_cache, 1024
 
 	#
 	# Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.99.109, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
@@ -3789,10 +3741,10 @@ application_config:
 	.long	0x10a	# number_of_assemblies_in_apk
 	.long	0x41	# bundled_assembly_name_width
 	.long	0x2	# number_of_assembly_store_files
-	.long	0x28	# number_of_dso_cache_entries
+	.long	0x20	# number_of_dso_cache_entries
 	.long	0x3	# mono_components_mask
 	.zero	4
-	.quad	.L.autostr.53	# android_package_name
+	.quad	.L.autostr.45	# android_package_name
 	.size	application_config, 56
 
 
@@ -3839,7 +3791,7 @@ application_config:
 
 	.type	.L.autostr.8, @object
 .L.autostr.8:
-	.asciz	"ff760850-6fdc-4027-bfe3-28a1185f3c25"
+	.asciz	"12f25dbe-40a4-473a-a9ab-bc5df69d0375"
 	.size	.L.autostr.8, 37
 
 	.type	.L.autostr.9, @object
@@ -3869,68 +3821,68 @@ application_config:
 
 	.type	.L.autostr.14, @object
 .L.autostr.14:
-	.asciz	"libacbrnfe64.so"
-	.size	.L.autostr.14, 16
+	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
+	.size	.L.autostr.14, 50
 
 	.type	.L.autostr.15, @object
 .L.autostr.15:
-	.asciz	"libacbrnfe32.so"
-	.size	.L.autostr.15, 16
+	.asciz	"libxamarin-debug-app-helper.so"
+	.size	.L.autostr.15, 31
 
 	.type	.L.autostr.16, @object
 .L.autostr.16:
-	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
-	.size	.L.autostr.16, 50
+	.asciz	"libmono-component-hot_reload.so"
+	.size	.L.autostr.16, 32
 
 	.type	.L.autostr.17, @object
 .L.autostr.17:
-	.asciz	"libxamarin-debug-app-helper.so"
-	.size	.L.autostr.17, 31
+	.asciz	"libmono-component-hot_reload.so"
+	.size	.L.autostr.17, 32
 
 	.type	.L.autostr.18, @object
 .L.autostr.18:
-	.asciz	"libacbrnfe64.so"
-	.size	.L.autostr.18, 16
+	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
+	.size	.L.autostr.18, 50
 
 	.type	.L.autostr.19, @object
 .L.autostr.19:
-	.asciz	"libacbrnfe32.so"
-	.size	.L.autostr.19, 16
+	.asciz	"libSystem.Native.so"
+	.size	.L.autostr.19, 20
 
 	.type	.L.autostr.20, @object
 .L.autostr.20:
-	.asciz	"libmono-component-hot_reload.so"
-	.size	.L.autostr.20, 32
+	.asciz	"libmono-component-debugger.so"
+	.size	.L.autostr.20, 30
 
 	.type	.L.autostr.21, @object
 .L.autostr.21:
-	.asciz	"libacbrnfe32.so"
-	.size	.L.autostr.21, 16
+	.asciz	"libSystem.Native.so"
+	.size	.L.autostr.21, 20
 
 	.type	.L.autostr.22, @object
 .L.autostr.22:
-	.asciz	"libmono-component-hot_reload.so"
-	.size	.L.autostr.22, 32
+	.asciz	"libxamarin-debug-app-helper.so"
+	.size	.L.autostr.22, 31
 
 	.type	.L.autostr.23, @object
 .L.autostr.23:
-	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
-	.size	.L.autostr.23, 50
+	.asciz	"libSystem.IO.Compression.Native.so"
+	.size	.L.autostr.23, 35
 
 	.type	.L.autostr.24, @object
 .L.autostr.24:
-	.asciz	"libSystem.Native.so"
-	.size	.L.autostr.24, 20
+	.asciz	"libmonodroid.so"
+	.size	.L.autostr.24, 16
 
 	.type	.L.autostr.25, @object
 .L.autostr.25:
-	.asciz	"libmono-component-debugger.so"
-	.size	.L.autostr.25, 30
+	.asciz	"libSystem.IO.Compression.Native.so"
+	.size	.L.autostr.25, 35
 
 	.type	.L.autostr.26, @object
 .L.autostr.26:
-	.asciz	"libSystem.Native.so"
-	.size	.L.autostr.26, 20
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.26, 19
 
 	.type	.L.autostr.27, @object
 .L.autostr.27:
@@ -3939,23 +3891,23 @@ application_config:
 
 	.type	.L.autostr.28, @object
 .L.autostr.28:
-	.asciz	"libSystem.IO.Compression.Native.so"
-	.size	.L.autostr.28, 35
+	.asciz	"libmonodroid.so"
+	.size	.L.autostr.28, 16
 
 	.type	.L.autostr.29, @object
 .L.autostr.29:
-	.asciz	"libmonodroid.so"
-	.size	.L.autostr.29, 16
+	.asciz	"libSystem.Native.so"
+	.size	.L.autostr.29, 20
 
 	.type	.L.autostr.30, @object
 .L.autostr.30:
-	.asciz	"libSystem.IO.Compression.Native.so"
-	.size	.L.autostr.30, 35
+	.asciz	"libmonodroid.so"
+	.size	.L.autostr.30, 16
 
 	.type	.L.autostr.31, @object
 .L.autostr.31:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.31, 19
+	.asciz	"libmono-component-debugger.so"
+	.size	.L.autostr.31, 30
 
 	.type	.L.autostr.32, @object
 .L.autostr.32:
@@ -3964,108 +3916,68 @@ application_config:
 
 	.type	.L.autostr.33, @object
 .L.autostr.33:
-	.asciz	"libmonodroid.so"
-	.size	.L.autostr.33, 16
+	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
+	.size	.L.autostr.33, 50
 
 	.type	.L.autostr.34, @object
 .L.autostr.34:
-	.asciz	"libSystem.Native.so"
-	.size	.L.autostr.34, 20
+	.asciz	"libmonodroid.so"
+	.size	.L.autostr.34, 16
 
 	.type	.L.autostr.35, @object
 .L.autostr.35:
-	.asciz	"libacbrnfe64.so"
-	.size	.L.autostr.35, 16
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.35, 19
 
 	.type	.L.autostr.36, @object
 .L.autostr.36:
-	.asciz	"libmonodroid.so"
-	.size	.L.autostr.36, 16
+	.asciz	"libmono-component-hot_reload.so"
+	.size	.L.autostr.36, 32
 
 	.type	.L.autostr.37, @object
 .L.autostr.37:
-	.asciz	"libmono-component-debugger.so"
-	.size	.L.autostr.37, 30
+	.asciz	"libSystem.Native.so"
+	.size	.L.autostr.37, 20
 
 	.type	.L.autostr.38, @object
 .L.autostr.38:
-	.asciz	"libxamarin-debug-app-helper.so"
-	.size	.L.autostr.38, 31
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.38, 19
 
 	.type	.L.autostr.39, @object
 .L.autostr.39:
-	.asciz	"libacbrnfe64.so"
-	.size	.L.autostr.39, 16
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.39, 19
 
 	.type	.L.autostr.40, @object
 .L.autostr.40:
-	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
-	.size	.L.autostr.40, 50
+	.asciz	"libSystem.IO.Compression.Native.so"
+	.size	.L.autostr.40, 35
 
 	.type	.L.autostr.41, @object
 .L.autostr.41:
-	.asciz	"libmonodroid.so"
-	.size	.L.autostr.41, 16
+	.asciz	"libmono-component-hot_reload.so"
+	.size	.L.autostr.41, 32
 
 	.type	.L.autostr.42, @object
 .L.autostr.42:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.42, 19
+	.asciz	"libmono-component-debugger.so"
+	.size	.L.autostr.42, 30
 
 	.type	.L.autostr.43, @object
 .L.autostr.43:
-	.asciz	"libmono-component-hot_reload.so"
-	.size	.L.autostr.43, 32
+	.asciz	"libSystem.IO.Compression.Native.so"
+	.size	.L.autostr.43, 35
 
 	.type	.L.autostr.44, @object
 .L.autostr.44:
-	.asciz	"libSystem.Native.so"
-	.size	.L.autostr.44, 20
+	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
+	.size	.L.autostr.44, 50
 
 	.type	.L.autostr.45, @object
 .L.autostr.45:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.45, 19
-
-	.type	.L.autostr.46, @object
-.L.autostr.46:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.46, 19
-
-	.type	.L.autostr.47, @object
-.L.autostr.47:
-	.asciz	"libacbrnfe32.so"
-	.size	.L.autostr.47, 16
-
-	.type	.L.autostr.48, @object
-.L.autostr.48:
-	.asciz	"libSystem.IO.Compression.Native.so"
-	.size	.L.autostr.48, 35
-
-	.type	.L.autostr.49, @object
-.L.autostr.49:
-	.asciz	"libmono-component-hot_reload.so"
-	.size	.L.autostr.49, 32
-
-	.type	.L.autostr.50, @object
-.L.autostr.50:
-	.asciz	"libmono-component-debugger.so"
-	.size	.L.autostr.50, 30
-
-	.type	.L.autostr.51, @object
-.L.autostr.51:
-	.asciz	"libSystem.IO.Compression.Native.so"
-	.size	.L.autostr.51, 35
-
-	.type	.L.autostr.52, @object
-.L.autostr.52:
-	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
-	.size	.L.autostr.52, 50
-
-	.type	.L.autostr.53, @object
-.L.autostr.53:
 	.asciz	"com.companyname.mauidemo"
-	.size	.L.autostr.53, 25
+	.size	.L.autostr.45, 25
 
 
 	.ident	"Xamarin.Android remotes/origin/release/6.0.4xx @ 25cb50d78ac929b03d2ec6f1a4c0a7aeb9bcebc3"

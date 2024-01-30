@@ -37,6 +37,18 @@
     <AppxPackagedFile Include="D:\Fontes\Maui\mauiDemo\mauiDemo\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>mauiDemo.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Fontes\Maui\mauiDemo\mauiDemo\Resources\Lib\x86_64\ACBrNFe32.dll">
+      <PackagePath>Resources\Lib\x86_64\ACBrNFe32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Fontes\Maui\mauiDemo\mauiDemo\Resources\Lib\x86_64\ACBrNFe64.dll">
+      <PackagePath>Resources\Lib\x86_64\ACBrNFe64.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Fontes\Maui\mauiDemo\mauiDemo\Resources\Lib\x86_64\libacbrnfe32.so">
+      <PackagePath>Resources\Lib\x86_64\libacbrnfe32.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Fontes\Maui\mauiDemo\mauiDemo\Resources\Lib\x86_64\libacbrnfe64.so">
+      <PackagePath>Resources\Lib\x86_64\libacbrnfe64.so</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Fontes\Maui\mauiDemo\mauiDemo\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mauiDemo.deps.json">
       <PackagePath>mauiDemo.deps.json</PackagePath>
     </AppxPackagedFile>
@@ -727,8 +739,8 @@
     <AppxPackagedFile Include="C:\Users\Futura\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Futura\.nuget\packages\acbrlib.core\1.1.3\lib\netstandard2.0\ACBrLib.Core.dll">
-      <PackagePath>ACBrLib.Core.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Futura\.nuget\packages\metrolog.net6\2.1.0\lib\net6.0-windows10.0.19041\MetroLog.Net6.dll">
+      <PackagePath>MetroLog.Net6.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Futura\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
