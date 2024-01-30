@@ -1,0 +1,1 @@
+D:\Fontes\Maui\mauiDemo\mauiDemo\mauiDemo.csproj;x64
